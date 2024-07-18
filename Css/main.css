@@ -1,0 +1,124 @@
+.header{
+    background-image: url('../images/events-heavenly-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width : 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+.sideBar{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(19, 3, 3);
+    width: 250px;
+    left: -250;
+}
+.sideBar li{
+    padding: 15px;
+}
+.sideBar .x{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    left: 200px;
+    cursor: pointer;
+}
+.sideBar .bars-icon{
+    position: absolute;
+    right: -40px;
+    color: white;
+    font-size : 30px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    padding: 100px 0;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    color: #444444;
+    font-size: 35px;
+}
+.footer-p{
+    color: #777777;
+}
+.left-side h3{
+    color: #444444;
+    font-size : 18px
+
+}
+.left-side p{
+    color: #777777;
+}
+.con-detail{
+    color: #444444;
+}
+.social-icon {
+    margin-top: 35px;
+}
+.social-icon i{
+    border : 1px solid #999;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-right: 10px;
+}
+.social-icon i:hover{
+    background-color: #d62e33;
+    color: white;
+    cursor: pointer
+}
+textarea{
+    height : 200px;
+}
+.time{
+    background-image: url('../images/JOIN.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.time-overlay{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+    color: white;
+}
+
+.time-content{
+    border:  1px solid white;
+    color : white
+}
+.container{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}   
+.paregraphs{
+    padding: 50px 0;
+}
+.clickable-content{
+    width: 600px;
+    padding:  10px;
+    background-color: #d62e3399;
+    cursor: pointer;
+}
